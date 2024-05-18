@@ -1,6 +1,6 @@
 *{
     border-top-left-radius:3em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 0;
 }
 
@@ -8,20 +8,27 @@ body {
     background-color: rgb(115, 122, 103);
 }
 
+.block {
+    display: grid;
+    margin: auto;
+}
+
 .bg {
     width: 100%;
-    /* margin: auto; */
-    /* padding: 8em; */
+    display: grid;
+    margin: auto;
+    align-content: center;
 }
 
 .block{
-    background-color: rgb(19, 6, 53);
+    background-image:linear-gradient(rgb(13, 6, 77), rgb(6, 2, 32));
     width: 27em;
-    height: 50em;
-    margin: auto;
+    height: 57.3em;
+    /* margin: auto; */
     margin-top: 2em;
     /* border-radius: 12PX; */
-    box-shadow: 13px 14px 10px 2px;
+    box-shadow: 0px 0px 9px 2px;
+    display: grid;
 }
 
 .inside{
@@ -45,7 +52,7 @@ body {
 }
 
 .iner{
-    background-color: rgb(245, 233, 229);
+    background-color: rgb(179, 212, 242);
     width: 27em;
     height: 20em;
     /* margin: auto; */
@@ -61,64 +68,61 @@ body {
     padding-left: 0.5em;
 
     background-color: rgb(255, 68, 0);
-    width: 15em;
-    height: 17em;
+    width: 14em;
+    height: 17.6em;
     margin: auto;
     border-bottom-right-radius:  8em;
     border-bottom-left-radius:  8em;
-    box-shadow: 0 17px 9px 4px;
+    box-shadow: 0 0px 9px 1px;
+    border-top-left-radius: 0;
 
 }
 
 
 .image{
     width: 11.6em;
-    height: 10.6em;
+    /* height: 10.6em; */
     border-radius: 20em;
     width: 12em;
     height: 12em;
-    margin: -2px 12px;
-    border: 7px solid whitesmoke;
+    margin: 49px 5.4px;
+    border: 7px solid rgb(144, 177, 208);
+    background-color: rgb(179, 212, 242);
+
 }
 
-.down{
-    background-color: rgb(23, 52, 78);
+/* .down{
+    background-color: rgb(217, 221, 224);
     width: 24em;
-    height: em;
-    /* margin: auto; */
+    height: 29em;
+    margin: auto;
     margin-top: 3em;
     margin-top: -25em;
-}
-
-.cover{
-    margin-top: -7.5em;
-    margin-left: -5.47em;
-    background-color: rgb(255, 68, 0);
-    width: 410.8px;
-    height: 10em;
-}
+} */
 
 
-.hub{
+/* .hub{
     color: white;
     font-family: arial black;
     font-size: 23px;
     margin-left: 1em;
-}
+} */
 
 .name{
     color: white;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 2em;
 }
+
+
 
 .details{
     color: white;
 }
 
 .paul{
-    font-size: 2.2em;
-    margin-bottom: 5px;
+    font-size: 45px;
+    margin-bottom: 10px;
 
 }
 
@@ -130,20 +134,35 @@ body {
 } */
 
 .line {
-    width: 400px;
+    width: 97%;
 }
 
-.job-title {
+.about {
     text-align: center;
-    font-size: 20px;
-    margin: 25px 0 0;
+    font-size: 21px;
+    font-weight: bolder;
+    margin: 10px auto;
+    background-image: linear-gradient(rgb(236, 224, 219), rgb(179, 212, 242));
+    word-spacing: 10px;
+    width: 97%;
+    color: black;
+    height: 80px;
+    border-radius: 3px;  
+    display: grid;  
 }
 
 .description {
-    text-align: left;
+    text-align: center;
     margin: 15px;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 25px;
+    font-family: inherit;
+    word-spacing: 5px;
+
+}
+
+.job-title {
+    font-size: 27px;
 }
 
 footer {
@@ -166,7 +185,10 @@ footer {
         width: 400px;
         padding: 5em 0;
         background-color:aquamarine;
+        font-family: inherit;
     }
+
+
 
     .bg {
         width: 100%;
@@ -177,7 +199,17 @@ footer {
 
     
     .block{
-        background-color: rgb(19, 6, 53);
+        background-image:linear-gradient(rgb(13, 6, 77), rgb(6, 2, 32));
+        width: 22em;
+        height: 48.3em;
+        margin: auto;
+        /* margin-top: 1em; */
+        /* border-radius: 12PX; */
+        box-shadow: 0px 0px 9px 2px;
+    }
+
+    .change{
+        background-color: rgb(153, 151, 157);
         width: 22em;
         height: 44em;
         margin: auto;
@@ -207,7 +239,7 @@ footer {
     }
     
     .iner{
-        background-color: rgb(245, 233, 229);
+        background-color: rgb(179, 212, 242);
         width: 22em;
         height: 15em;
         /* margin: auto; */
@@ -224,11 +256,11 @@ footer {
     
         background-color: rgb(255, 68, 0);
         width: 10em;
-        height: 12em;
+        height: 12.5em;
         margin: auto;
         border-bottom-right-radius:  8em;
         border-bottom-left-radius:  8em;
-        box-shadow: 0 30px 15px;
+        box-shadow: 0 5px 9px 2px;
     
     }
     
@@ -264,11 +296,18 @@ footer {
     }
     .details{
         color: white;
+        text-align: center;
+    }
+
+    .description {
+        text-align: center;
     }
     
     .paul{
         font-size: 2.2em;
         margin-bottom: 5px;
+        font-size: 35px;
+        font-family: inherit;
     
     }
     
@@ -276,7 +315,6 @@ footer {
         margin-left: 1.2em;
         margin-bottom: 10px;
         margin-top: -10px;
-    
     }
     
     .line {
@@ -285,7 +323,7 @@ footer {
     
     .job-title {
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
         margin: 25px 0 0;
     }
     
@@ -293,7 +331,8 @@ footer {
         text-align: left;
         margin: 15px;
         font-family: sans-serif;
-        font-size: 18px;
+        font-size: 20px;
+        text-align: center;
     }
     
     footer {
