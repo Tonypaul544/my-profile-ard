@@ -308,6 +308,13 @@ footer {
         text-align: center;
         margin-top: 1em;
     }
+
+    .name p {
+    font-family: cursive;
+    font-size: 18px;
+    }
+
+    
     .details{
         color: white;
         text-align: center;
