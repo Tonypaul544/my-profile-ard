@@ -1,6 +1,6 @@
 *{
     border-top-left-radius:3em;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
     padding: 0;
 }
 
@@ -23,7 +23,7 @@ body {
 .block{
     background-image:linear-gradient(rgb(13, 6, 77), rgb(6, 2, 32));
     width: 27em;
-    height: 57.3em;
+    height: 51.3em;
     /* margin: auto; */
     margin-top: 2em;
     /* border-radius: 12PX; */
@@ -114,6 +114,11 @@ body {
     margin-top: 2em;
 }
 
+.name p {
+    font-family: cursive;
+    font-size: 15px;
+}
+
 
 
 .details{
@@ -138,7 +143,6 @@ body {
 }
 
 .about {
-    text-align: center;
     font-size: 21px;
     font-weight: bolder;
     margin: 10px auto;
@@ -146,19 +150,28 @@ body {
     word-spacing: 10px;
     width: 97%;
     color: black;
-    height: 80px;
+    height: 60px;
     border-radius: 3px;  
-    display: grid;  
+    display: grid;
+    align-items: center;
 }
 
 .description {
     text-align: center;
     margin: 15px;
-    font-family: sans-serif;
+    font-family: cursive;
     font-size: 25px;
     font-family: inherit;
     word-spacing: 5px;
 
+}
+
+p.job-title {
+    font-size: 20px;
+    display: grid;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .job-title {
@@ -184,7 +197,7 @@ footer {
     body {
         width: 400px;
         padding: 5em 0;
-        background-color:aquamarine;
+        background-color: aliceblue;
         font-family: inherit;
     }
 
@@ -201,11 +214,11 @@ footer {
     .block{
         background-image:linear-gradient(rgb(13, 6, 77), rgb(6, 2, 32));
         width: 22em;
-        height: 49.5em;
+        height: 45.2em;
         margin: auto;
         /* margin-top: 1em; */
         /* border-radius: 12PX; */
-        box-shadow: 0px 0px 9px 2px;
+        box-shadow: 0px 0px 7px -1px;
     }
 
     .change{
@@ -270,7 +283,8 @@ footer {
         width: 8em;
         height: 8em;
         margin: 31px 4.5px;
-        border: 7px solid whitesmoke;
+        border: 7px solid rgb(144, 177, 208);
+        background-color: rgb(179, 212, 242);
     }
     
     .cover{
